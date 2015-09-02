@@ -13,7 +13,7 @@
 #import "MagicalRecord+iCloud.h"
 #import "MagicalRecordLogging.h"
 
-static NSString * const MagicalRecordContextWorkingName = @"MagicalRecordContextWorkingName";
+static NSString * const kMagicalRecordNSManagedObjectContextWorkingName = @"kMagicalRecordNSManagedObjectContextWorkingName";
 
 static NSManagedObjectContext *MagicalRecordRootSavingContext;
 static NSManagedObjectContext *MagicalRecordDefaultContext;
